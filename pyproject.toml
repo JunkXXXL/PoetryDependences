@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "DavidsLogger"
+version = "0.1.0"
+description = "Task number 1048 'Дублирование utils.py'"
+authors = ["Андрей Тарасенко NeonFighter@yandex.ru"]
+packages = [{ include = "custom_logger" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
